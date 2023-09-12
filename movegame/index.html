@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move Game</title>
+    <link rel="stylesheet"  href="style.css">
+    
+</head>
+<body>
+    <h1>Move Game</h1>
+    <div style="display:flex">
+        <div id="greenbox">
+            <div id="moveDiv" onmouseover="move()"></div>
+            <div id="DZ" onclick="mouseClick(event)"></div>
+            <div id="hitDiv"></div>
+        </div>
+   
+        <div id="settings">
+            <div style="display:flex">
+                <button onclick="auto()">Start</button>
+                <button onclick="reset()">reset</button>
+                <button onclick="stop()">stop</button>
+            </div>
+
+            <div id="score" >score
+                <div id="getcoords">
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+        
+    
+    <script src="script.js"></script>
+</body>
+</html>
